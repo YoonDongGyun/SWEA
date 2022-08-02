@@ -1,6 +1,6 @@
 package d1;
 
-public class d1_2027 {
+public class D1_02027 {
 
 	public static void main(String[] args) {
 		for(int i=0;i<5;i++) {

@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class D3_1289 {
+public class D3_01289 {
 	static BufferedReader input;
 	static StringTokenizer tokens;
 	static int T;

@@ -2,19 +2,18 @@ package d1;
 
 import java.util.Scanner;
 
-public class d1_2025 {
+public class D1_02043 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num,sum=0;
+		int P,K;
+		
 		Scanner sc = new Scanner(System.in);
 		
-		num=sc.nextInt();
-		for(int i=1;i<=num;i++) {
-			sum+=i;
-		}
+		P=sc.nextInt();
+		K=sc.nextInt();
 		
-		System.out.println(sum);
+		System.out.println(P-K+1);
 	}
 
 }
