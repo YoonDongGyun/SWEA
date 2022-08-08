@@ -1,8 +1,8 @@
 package d3;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
@@ -25,7 +25,7 @@ public class D3_01228 {
 	static int N,state,point,cnt;
 	
 	public static void main(String[] args) throws IOException {
-		input = new BufferedReader(new FileReader("input.txt"));
+		input = new BufferedReader(new InputStreamReader(System.in));
 		
 		for(int t=1;t<=10;t++) {
 			N=Integer.parseInt(input.readLine());
